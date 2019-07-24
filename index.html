@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="images/navlogo.png" />
+  <title>SatSang Vihar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="onclick-form-popup.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+        <link rel="stylesheet" href="css/grid-gallery.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <style>
+.pricing-table {
+  margin-top: 0px;
+}
+hr {
+width: 350px;
+height: 2px;
+background-color: #ef9919;
+border-top: 0px;
+}
+.pricing-table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.pricing-table .pricing-table-item {
+  border-bottom: 0px;
+}
+.pricing-table .item-header {
+  background-color: #696969;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+}
+h2, .header-two {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.pricing-table .item-cta-block {
+  background-color: #D3D3D3;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+.pricing-table .block-price {
+  color: #000000;
+  font-size: 45px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+.pricing-table .block-sub-text {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #000000;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.pricing-table .pricing-toggle-holder {
+  display: none;
+}
+.pricing-table .pricing-toggle-holder button {
+  padding-left: 0;
+  padding-right: 0;
+}
+.item-cta-block .button.orange-button {
+  display: inline-block;
+}
+button.orange-button, input[type="button"].orange-button, input[type="reset"].orange-button, input[type="submit"].orange-button, a.button.orange-button {
+  background-color: #d2282e;
+  color: #ffffff;
+  padding: 18px 20px;
+  box-shadow: 0 3px 0 0 rgba(24, 24, 25, 0.1);
+  -webkit-transition: all .75s;
+  transition: all .75s;
+  margin-bottom: 6px;
+}
+button .glyphicon-menu-right, input[type="button"] .glyphicon-menu-right, input[type="reset"] .glyphicon-menu-right, input[type="submit"] .glyphicon-menu-right, a.button .glyphicon-menu-right {
+  top: -1px;
+  margin-left: 5px;
+  font-size: 9px;
+}
+.pricing-table .item-details-block {
+  background-color: #f7f7f7;
+  padding: 38px 30px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.pricing-table .plus-header {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+.pricing-table .separator {
+  margin-bottom: 38px;
+}
+.separator {
+  background-color: #d2282e;
+  height: 3px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 27px;
+  margin-bottom: 48px;
+}
+.pricing-table .item-details-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pricing-table .item-details-block ul li {
+  line-height: 2;
+}
+li {
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 120%;
+}
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+  position: relative;
+}
+.intro-type .container {
+  padding: 107px 0px 102px 0px !important;
+}
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.company-heading h1 {
+  margin-bottom: 40px;
+  line-height: 80px;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700 !important;
+  text-align: center;
+}
+.seo-header, .product-header, .intro-type .container h1.white, .company-heading h1 {
+  font-weight: 100 !important;
+  text-transform: capitalize;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.parallax {
+  background-attachment: inherit !important;
+}
+.parallax {
+  background-attachment: inherit !important;
+}
+.parallax {
+  background-attachment: inherit !important;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: -10;
+}
+/* Side Widget */
+.side-widget.open {
+  margin-right: 0;
+}
+.side-widget {
+  width: 57px;
+  z-index: 9;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  right: 0;
+  top: 52%;
+  text-align: center;
+  margin-right: -45px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.btn.btn-blue:hover {
+  background-color: #1f6fa6;
+}
+.btn.btn-blue {
+  background-color: #0082ca;
+}
+.btn.btn-blue {
+  background-color: #2483c3;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+.btn {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 12px 35px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+.widget-close:hover {
+  color: #ccc;
+}
+.widget-close {
+  color: #636363;
+}
+.widget-close {
+  position: absolute;
+  left: 3px;
+  top: 0;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  z-index: 1;
+}
+.section.triad-section {
+margin-top: 10px;
+}
+section.section h2 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+h2 {
+  color: #000;
+}
+h1, h2, h2, h4, h5, h6 {
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+section.section p.sub-heading {
+  font-size: 16px;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+section.triad-section .triad-sub-section {
+  padding-right: 60px;
+}
+section p.detail-paragraph:first-child {
+  margin-top: 0;
+}
+section p.detail-paragraph {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #000;
+}
+b, strong {
+  font-weight: 700;
+}
+#popup-container {
+  position: fixed;
+  z-index: 9990;
+  margin: 0 auto;
+  top: 10%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 990px;
+  display: none;
+}
+#popup-container.open {
+  display: block;
+}
+.modal-content {
+  background-color: rgba(38, 38, 40, 0.92);
+  color: #fff;
+  padding: 20px 100px;
+}
+.modal-content input {
+  height: 57px;
+  border-radius: 0;
+}
+.modal-content .btn-primary {
+  width: 175px;
+  background-color: #ef9919;
+  border: 0;
+}
+.modal-content .btn-primary:hover {
+  background-color: #0073b7;
+  border: 0;
+}
+.modal-content .logorow {
+  text-align: center;
+}
+.close {
+  margin-right: 10px;
+  margin-top: 5px;
+  color: #fff;
+  opacity: .8;
+}
+.close:hover {
+  color: #efefef;
+}
+  </style>
+</head>
+<body style="background-color: #f9f9f9;">
+<div class="header text-truncate">
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark .border-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-home"></i> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ARGPRASTUTI</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">DONATE</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          DROPDOWN
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+         <li class="nav-item">
+        <a class="nav-link" href="#">ADMIN</a>
+      </li>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- NAVBAR END-->
+<div class="container" style="margin-top: 5px;">
+	<div class="row">
+  <div class="col-sm-8">
+  	<!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+    <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <!--First slide-->
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/wall2.jpg" height="420" width="100%" alt="First slide">
+    </div>
+    <!--/First slide-->
+    <!--Second slide-->
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/wall3.jpg" height="420" width="100%" alt="Second slide">
+    </div>
+    <!--/Second slide-->
+    <!--Third slide-->
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/wall1.jpg" height="420" width="100%" alt="Third slide">
+    </div>
+    <!--/Third slide-->
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+  </div>
+  <div class="col-sm-4 text-left" style="color: #2c4059; font-size: 16px; background-color: #f7f7f7; padding: 15px; height: 420px; overflow: hidden; box-shadow: 2px 2px 5px black;" >
+    <h6 class="text-center">Important Links</h6>
+    <hr style="border-color: black; border-style: dotted;">
+    <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"><a href="#" class="anchor"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </a><br>
+    <a href="#" class="anchor"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </a><br>
+    <a href="#" class="anchor"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </a><br>
+    <a href="#" class="anchor"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </a><br>
+    <a href="#" class="anchor"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </a><br>
+    <a href="#" class="anchor"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </a></marquee>
+  </div>
+</div>
+</div>
+<div class="side-widget open">
+  <div class="inner">
+    <a class="btn btn-blue productCheckout" id="get-started">Get Started</a>
+  </div>
+</div>
+
+<div id="popup-container">
+   <div id="popup-window">
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>  
+         <a href="#" class="your-class"></a>
+         <div>
+            <div class="row text-center">
+              <h1>GET STARTED</h1>
+          <hr>
+              <p>Fill out the form below to get started today!</p>
+            </div>
+            <br>
+            <form action="" method="post" id="footer-form">
+            <div class="row">
+               <div class="col-md-6">
+                  <input class="form-control" name="first_name" id="first_name" placeholder="First Name *" required>
+               </div>
+               <div class="col-md-6">
+                  <input class="form-control" name="last_name" id="last_name" placeholder="Last Name *" required>
+               </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-md-6">
+                  <input class="form-control" name="email" id="email" placeholder="Your Email *">
+               </div>
+               <div class="col-md-6">
+                  <input class="form-control" name="phone" placeholder="Phone *" id="phone">
+                  <br>
+               </div>
+            </div>
+            <center>
+            <input type="submit" class="btn btn-primary" value="Submit">
+            </center>
+            </form>
+            <br>
+         </div>
+      </div>
+   </div>
+<!-- Footer -->
+<div class="container-fluid" style="background-image: url(images/footer.jpg); background-position: right; background-size: cover;background-attachment: fixed; margin-top: 25px;">
+	<div class="row" style="position: relative; background-color: rgba(0, 0, 0,0.8); padding: 50px;">
+  <div class="col-sm-3">
+  	<h4 class="head-footer">Download Links</h4>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Leave Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Guest Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Hostel Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Mess Fee Structure</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Border Certificate</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Railway Concession</a>
+  </div>
+  <div class="col-sm-3">
+  	<h5 class="head-footer">Download Links</h5>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Leave Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Guest Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Hostel Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Mess Fee Structure</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Border Certificate</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Railway Concession</a>
+  </div>
+  <div class="col-sm-3">
+<h5 class="head-footer">Download Links</h5>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Leave Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Guest Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Hostel Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Mess Fee Structure</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Border Certificate</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Railway Concession</a>
+  </div>
+  <div class="col-sm-3">
+<h5 class="head-footer">Download Links</h5>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Leave Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Guest Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Hostel Form</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Mess Fee Structure</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Border Certificate</a><br>
+    <a href="#" class="anchor-footer"><i class="fa fa fa-hand-o-right fa-1x"></i>&nbsp;Railway Concession</a>
+  </div>
+</div>
+</div>
+<!-- Footer End-->
+<script>
+$( document ).ready(function() {
+  $('#get-started').on('click', function() {
+    var $sidenav, $this;
+    $this = $(this);
+    $sidenav = $('#popup-container');
+    if ($this.hasClass('active')) {
+      $this.removeClass('active');
+      return $sidenav.removeClass('active');
+    } else {
+      $this.addClass('active');
+      return $sidenav.addClass('active');
+    }
+  });
+  $('#get-started').on('click', function() {
+    var $sidenav, $this;
+    $this = $(this);
+    $sidenav = $('#popup-container');
+    if ($this.hasClass('open')) {
+      $this.removeClass('open');
+      return $sidenav.removeClass('open');
+    } else {
+      $this.addClass('open');
+      return $sidenav.addClass('open');
+    }
+  });
+  $('#popup-container').find('.close').on('click', function() {
+    $(this).parent().removeClass('open');
+    $('#get-started').removeClass('open')
+    return $('#popup-container').removeClass('open');
+    return $('#get-started').removeClass('open');
+  });
+});
+</script>
+</body>
+</html>
